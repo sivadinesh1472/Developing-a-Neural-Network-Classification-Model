@@ -43,9 +43,9 @@ Evaluate the trained model on test data using accuracy, confusion matrix, and cl
 
 ## PROGRAM
 
-### Name:
+### Name: CH.V.S.DINESH KUMAR
 
-### Register Number:
+### Register Number:212224040055
 
 ```python
 import torch
