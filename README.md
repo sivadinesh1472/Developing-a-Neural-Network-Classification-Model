@@ -16,27 +16,27 @@ Include the neural network model diagram.
 ## DESIGN STEPS
 ### STEP 1: 
 
-Write your own steps
+Load the dataset, remove irrelevant columns (ID), handle missing values, encode categorical features using Label Encoding, and encode the target class (Segmentation).
 
 ### STEP 2: 
 
-
+Split the dataset into training and testing sets, then normalize the input features using StandardScaler for better neural network performance.
 
 ### STEP 3: 
-
+Convert the scaled training and testing data into PyTorch tensors and create DataLoader objects for batch-wise training and evaluation.
 
 
 ### STEP 4: 
 
-
+Design a feedforward neural network with multiple fully connected layers and ReLU activation functions, ending with an output layer for multi-class classification.
 
 ### STEP 5: 
 
-
+Train the model using CrossEntropyLoss and Adam optimizer by performing forward propagation, loss calculation, backpropagation, and weight updates over multiple epochs.
 
 ### STEP 6: 
 
-
+Evaluate the trained model on test data using accuracy, confusion matrix, and classification report, and perform prediction on a sample input.
 
 
 
